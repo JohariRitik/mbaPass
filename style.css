@@ -1,0 +1,55 @@
+.container-xxl-12{
+    display:grid;
+    grid-template-columns: 3fr 3fr;
+    background-color: #3652AD;
+    animation-name: example;
+    animation-duration: 4s;
+    }
+  body{
+    background-color: #280274;
+  }
+h1{
+  color:white;
+  display: inline-block;
+  text-align: center;
+  justify-content:center;
+  background-color: #280274;
+}
+.navbar{
+    height:60px;
+}
+.courses{
+    display:grid;
+    margin-left: 20px;
+    grid-template-columns:300px 300px;
+    grid-template-rows: 350px 350px;
+    gap:10px;
+    
+    
+
+}
+.notifications{
+    background-color: rgb(205, 238, 194);
+    width:600px;
+    border:10px solid #280274;
+    border-radius: 15px;
+    
+
+}
+.footer{
+
+}
+@keyframes example {
+    from {background-color:#3652AD;}
+    to {background-color: #280274;}
+  }
+  .card{
+    box-shadow: 10px 10px;
+    
+  }
+  button{
+    transition: width 2s, height 4s;
+  }
+.card{
+  margin:20px;]
+}

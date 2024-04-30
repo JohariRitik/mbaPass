@@ -1,0 +1,22 @@
+body{
+    background-color: #3652AD
+}
+h1{
+    font-size: xx-large;
+}
+h2{
+    display:inline-block;
+}
+p{
+
+    display: inline-block;
+}
+.intro-Block{
+    display:grid;
+    grid-template-columns: 300px 600px;
+}
+img{
+    border-radius: 20px;
+    margin-right: 40px;
+
+}
